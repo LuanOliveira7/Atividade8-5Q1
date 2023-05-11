@@ -1,0 +1,15 @@
+body {
+    font: 12pt Arial;
+    background-color: cadetblue;
+}
+
+h1, h2, h3 {
+    font-family: 'Pacifico', cursive; font-weight: normal;
+    text-align: center;
+    font-size: 45px;
+}
+
+button {
+    font-size: 12pt; padding: 30px;
+    text-align: center;
+}
