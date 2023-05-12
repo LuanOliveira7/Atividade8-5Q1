@@ -5,8 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
+    <h1>Tabelas</h1>
+    <table>
+        <caption>
+            filmes fav
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col"> Grupos </th>
+                <th scope="col"> Nomes </th>
+                <th colspan="3" scope="colgroup"> Filmes </th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row"> Total </th>
+                <td> 1000 </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup"> Mulheres</th>
+                <td> Ana </td>
+                <td> Alien </td>
+                <td> Rambo</td>
+                <td> Vingadores </td>
+            </tr>
+            <tr>
+                <td> Beatriz </td>
+                <td> Hulk </td>
+                <td> Batman </td>
+                <td> Aquaman </td>
+            </tr>
+            <tr>
+                <td> Cláudia </td>
+                <td> Matrix </td>
+                <td> Big Hero </td>
+                <td> Aranha </td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup"> Homens </th>
+                <td> Wall-E </td>
+                <td> Dangal </td>
+                <td> Gladiador </td>
+                <td> Futebol </td>
+            </tr>
+            <tr>
+                <td> Toy Story </td>
+                <td> Star </td>
+                <td> Wars </td>
+                <td> Futsal </td>
+            </tr>
+        </tbody>
+    </table>
     
 </body>
 </html>

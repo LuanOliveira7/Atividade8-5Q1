@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+}
+table {
+    border-collapse: collapse;
+    font-size: 35px;
+}
+caption {
+    font-size: 55px;
+    font-weight: bold;
+    padding: 10px;
+}
+td, th {
+    border: solid blue;
+
+}
